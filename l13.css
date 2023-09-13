@@ -1,0 +1,15 @@
+.navbar a {
+    float: left;
+    background-color: yellow;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-left: 0.5px solid black;
+  }
+.navbar a:first-of-type{
+    border-left: 0px;
+}
+.navbar a:hover {
+    background-color: blue;
+    color: white;
+  }

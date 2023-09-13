@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+}
+.header{
+    background: rgb(52, 23, 80);
+    padding: 10px;
+    text-align: center;
+}
+.menu{
+    background: grey;
+    padding: 10px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.grid-item{
+    padding: 10px;
+    float: left;
+    width: 33.33%;
+    height: 300px;
+}
+.grid-item:first-child{
+    background-color: rgb(102, 12, 12);
+}
+.grid-item:last-child{
+    background-color: blueviolet;
+}
+.grid-item:nth-child(2){
+    background-color: skyblue;
+}
+.footer{
+    background-color: slategray;
+    padding: 10px;
+}

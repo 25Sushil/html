@@ -1,0 +1,57 @@
+h1{
+    color: tomato;
+}
+p{
+    margin-top: -5%;
+    margin-left: 40%;
+    width: fit-content;
+    background-color: white;
+}
+.container{
+    max-width: 700px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+}
+div{
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 25px;
+}
+input[type="text"],
+input[type="tel"],
+select{
+    border: 1px solid yellow;
+    width: 70%;
+    height: 35px;
+}
+textarea{
+    border: 1px solid yellow;
+    width: 70%;
+    height: 30%;
+}
+label[for="name"],
+label[for="address"],
+label[for="phone"],
+label[for="gender"],
+label[for="country"],
+label[for="message"],
+label[for="img"]{
+    display: inline-flex;
+    width: 20%;
+}
+.registerbtn{
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+.clrbtn{
+    background-color: palevioletred;
+    color: white;
+    height: 40px;
+    width: 60px;
+    margin-left: 5px;
+}

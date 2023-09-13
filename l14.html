@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../stylesheet/l14.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div class="container">
+        <p>Personal Details</p>
+        <div class="input-box">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter Name" name="name" id="name">
+        </div>
+        <br>
+            
+        <div class="input-box">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address">
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="">Select Country</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="ca">Canada</option>
+                    <option value="au">Australia</option>
+                    <option value="np">Nepal</option>
+                </select>
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <label for="img">Image</label>
+            <input type="file" id="image" name="image" accept="image/*">
+        </div>
+        <br>
+    
+        <div class="input-box">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I Accept Term &amp; Condition</label>
+        </div>
+        <br>
+     
+        <div class="input-box">
+            <button type="register" class="registerbtn">Register</button>
+            <button type="clear" class="clrbtn">Clear</button>
+        </div>
+    </div>
+</body>
+</html>
